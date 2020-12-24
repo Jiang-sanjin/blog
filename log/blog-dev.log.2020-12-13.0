@@ -1,0 +1,10 @@
+2020-12-13 18:47:39.782  INFO 13868 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.blog', args='[Ljava.lang.Object;@2c7313eb'}
+2020-12-13 18:47:39.814  INFO 13868 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:blog
+2020-12-13 18:47:42.366  INFO 13868 --- [http-nio-8080-exec-6] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.archives', args='[Ljava.lang.Object;@17b84f3e'}
+2020-12-13 18:47:42.367  INFO 13868 --- [http-nio-8080-exec-6] com.example.aspect.LogAspect             : Result:archives
+2020-12-13 18:47:44.010  INFO 13868 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.about', args='[Ljava.lang.Object;@400e16c'}
+2020-12-13 18:47:44.010  INFO 13868 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Result:about
+2020-12-13 18:47:49.524  INFO 13868 --- [http-nio-8080-exec-6] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@530f0616'}
+2020-12-13 18:47:49.524  INFO 13868 --- [http-nio-8080-exec-6] com.example.aspect.LogAspect             : Result:index
+2020-12-13 18:47:52.567  INFO 13868 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@3a9cb203'}
+2020-12-13 18:47:52.567  INFO 13868 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Result:index

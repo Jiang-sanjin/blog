@@ -1,0 +1,1180 @@
+2020-12-18 13:26:01.968  WARN 22916 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m38s340ms594µs857ns).
+2020-12-18 13:31:56.947  INFO 22916 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@7cb19a12'}
+2020-12-18 13:31:56.969  INFO 22916 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 15:36:12.882  INFO 22916 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@40f4e35e'}
+2020-12-18 15:36:12.901  INFO 22916 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:07:37.016  INFO 5240 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 5240 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
+2020-12-18 16:07:37.021 DEBUG 5240 --- [restartedMain] com.example.BlogApplication              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-12-18 16:07:37.022  INFO 5240 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: dev
+2020-12-18 16:07:37.221  INFO 5240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-18 16:07:37.222  INFO 5240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-18 16:07:38.628  INFO 5240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-18 16:07:38.802  INFO 5240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 159ms. Found 4 repository interfaces.
+2020-12-18 16:07:39.411  INFO 5240 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5afc603d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-18 16:07:40.254  INFO 5240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-18 16:07:40.295  INFO 5240 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-18 16:07:40.296  INFO 5240 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-18 16:07:40.311  INFO 5240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-12-18 16:07:40.311  INFO 5240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-12-18 16:07:40.312  INFO 5240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-18 16:07:40.312  INFO 5240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-18 16:07:41.431  INFO 5240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-12-18 16:07:41.811  INFO 5240 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-18 16:07:41.811  INFO 5240 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4588 ms
+2020-12-18 16:07:42.090  INFO 5240 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-18 16:07:42.261  INFO 5240 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-18 16:07:42.382  INFO 5240 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-18 16:07:42.528  INFO 5240 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-18 16:07:42.531  INFO 5240 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-18 16:07:42.727  INFO 5240 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-18 16:07:43.195  INFO 5240 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-18 16:07:47.495  INFO 5240 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 16:07:47.599  INFO 5240 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-18 16:07:48.310  INFO 5240 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-18 16:07:49.664  INFO 5240 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 16:07:49.758  WARN 5240 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-18 16:07:50.086  INFO 5240 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-18 16:07:51.493  INFO 5240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-18 16:07:51.501  INFO 5240 --- [restartedMain] com.example.BlogApplication              : Started BlogApplication in 15.614 seconds (JVM running for 17.981)
+2020-12-18 16:07:51.582  INFO 5240 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-18 16:07:51.583  INFO 5240 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-18 16:07:51.605  INFO 5240 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2020-12-18 16:07:51.685  INFO 5240 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@6c624541'}
+2020-12-18 16:07:51.960 ERROR 5240 --- [http-nio-8080-exec-1] c.e.handler.ControllerExceptionHandler   : Requst URL : http://localhost:8080/，Exception : {}
+
+org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:373)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:527)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy113.findTop(Unknown Source)
+	at com.example.service.impl.TypeServiceImpl.listTypeTop(TypeServiceImpl.java:76)
+	at com.example.service.impl.TypeServiceImpl$$FastClassBySpringCGLIB$$5bdae6d7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.example.service.impl.TypeServiceImpl$$EnhancerBySpringCGLIB$$c84aa961.listTypeTop(<generated>)
+	at com.example.web.IndexController.index(IndexController.java:33)
+	at com.example.web.IndexController$$FastClassBySpringCGLIB$$c2f979e3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.example.web.IndexController$$EnhancerBySpringCGLIB$$28da04c5.index(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy105.createQuery(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308)
+	at com.sun.proxy.$Proxy105.createQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery.createJpaQuery(AbstractStringBasedJpaQuery.java:146)
+	at org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery.doCreateQuery(AbstractStringBasedJpaQuery.java:88)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:210)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:129)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:91)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:136)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:125)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	... 83 common frames omitted
+Caused by: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]
+	at org.hibernate.QueryException.generateQueryException(QueryException.java:120)
+	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:103)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:219)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:611)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:720)
+	... 113 common frames omitted
+Caused by: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type
+	at org.hibernate.persister.entity.AbstractPropertyMapping.propertyException(AbstractPropertyMapping.java:73)
+	at org.hibernate.persister.entity.AbstractPropertyMapping.toType(AbstractPropertyMapping.java:67)
+	at org.hibernate.persister.entity.AbstractEntityPersister.toType(AbstractEntityPersister.java:1987)
+	at org.hibernate.hql.internal.ast.tree.FromElementType.getPropertyType(FromElementType.java:396)
+	at org.hibernate.hql.internal.ast.tree.FromElement.getPropertyType(FromElement.java:515)
+	at org.hibernate.hql.internal.ast.tree.DotNode.getDataType(DotNode.java:682)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.lookupProperty(HqlSqlWalker.java:659)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.addrExpr(HqlSqlBaseWalker.java:5002)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.expr(HqlSqlBaseWalker.java:1286)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.orderExpr(HqlSqlBaseWalker.java:1864)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.orderExprs(HqlSqlBaseWalker.java:1661)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.orderClause(HqlSqlBaseWalker.java:1634)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:654)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:313)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:261)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:271)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:191)
+	... 119 common frames omitted
+
+2020-12-18 16:07:52.083  WARN 5240 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]]
+2020-12-18 16:07:55.729  INFO 5240 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@51d7e025'}
+2020-12-18 16:07:55.764 ERROR 5240 --- [http-nio-8080-exec-10] c.e.handler.ControllerExceptionHandler   : Requst URL : http://localhost:8080/，Exception : {}
+
+org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:373)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:527)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy113.findTop(Unknown Source)
+	at com.example.service.impl.TypeServiceImpl.listTypeTop(TypeServiceImpl.java:76)
+	at com.example.service.impl.TypeServiceImpl$$FastClassBySpringCGLIB$$5bdae6d7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.example.service.impl.TypeServiceImpl$$EnhancerBySpringCGLIB$$c84aa961.listTypeTop(<generated>)
+	at com.example.web.IndexController.index(IndexController.java:33)
+	at com.example.web.IndexController$$FastClassBySpringCGLIB$$c2f979e3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.example.web.IndexController$$EnhancerBySpringCGLIB$$28da04c5.index(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy105.createQuery(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308)
+	at com.sun.proxy.$Proxy105.createQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery.createJpaQuery(AbstractStringBasedJpaQuery.java:146)
+	at org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery.doCreateQuery(AbstractStringBasedJpaQuery.java:88)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:210)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:129)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:91)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:136)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:125)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	... 83 common frames omitted
+Caused by: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]
+	at org.hibernate.QueryException.generateQueryException(QueryException.java:120)
+	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:103)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:219)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:611)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:720)
+	... 113 common frames omitted
+Caused by: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type
+	at org.hibernate.persister.entity.AbstractPropertyMapping.propertyException(AbstractPropertyMapping.java:73)
+	at org.hibernate.persister.entity.AbstractPropertyMapping.toType(AbstractPropertyMapping.java:67)
+	at org.hibernate.persister.entity.AbstractEntityPersister.toType(AbstractEntityPersister.java:1987)
+	at org.hibernate.hql.internal.ast.tree.FromElementType.getPropertyType(FromElementType.java:396)
+	at org.hibernate.hql.internal.ast.tree.FromElement.getPropertyType(FromElement.java:515)
+	at org.hibernate.hql.internal.ast.tree.DotNode.getDataType(DotNode.java:682)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.lookupProperty(HqlSqlWalker.java:659)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.addrExpr(HqlSqlBaseWalker.java:5002)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.expr(HqlSqlBaseWalker.java:1286)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.orderExpr(HqlSqlBaseWalker.java:1864)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.orderExprs(HqlSqlBaseWalker.java:1661)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.orderClause(HqlSqlBaseWalker.java:1634)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:654)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:313)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:261)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:271)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:191)
+	... 119 common frames omitted
+
+2020-12-18 16:07:55.770  WARN 5240 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]]
+2020-12-18 16:14:03.629  INFO 5240 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@9b10906'}
+2020-12-18 16:14:03.654 ERROR 5240 --- [http-nio-8080-exec-3] c.e.handler.ControllerExceptionHandler   : Requst URL : http://localhost:8080/，Exception : {}
+
+org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:373)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:527)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy113.findTop(Unknown Source)
+	at com.example.service.impl.TypeServiceImpl.listTypeTop(TypeServiceImpl.java:76)
+	at com.example.service.impl.TypeServiceImpl$$FastClassBySpringCGLIB$$5bdae6d7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.example.service.impl.TypeServiceImpl$$EnhancerBySpringCGLIB$$c84aa961.listTypeTop(<generated>)
+	at com.example.web.IndexController.index(IndexController.java:33)
+	at com.example.web.IndexController$$FastClassBySpringCGLIB$$c2f979e3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.example.web.IndexController$$EnhancerBySpringCGLIB$$28da04c5.index(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy105.createQuery(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308)
+	at com.sun.proxy.$Proxy105.createQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery.createJpaQuery(AbstractStringBasedJpaQuery.java:146)
+	at org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery.doCreateQuery(AbstractStringBasedJpaQuery.java:88)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:210)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:129)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:91)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:136)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:125)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	... 83 common frames omitted
+Caused by: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]
+	at org.hibernate.QueryException.generateQueryException(QueryException.java:120)
+	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:103)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:219)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:611)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:720)
+	... 113 common frames omitted
+Caused by: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type
+	at org.hibernate.persister.entity.AbstractPropertyMapping.propertyException(AbstractPropertyMapping.java:73)
+	at org.hibernate.persister.entity.AbstractPropertyMapping.toType(AbstractPropertyMapping.java:67)
+	at org.hibernate.persister.entity.AbstractEntityPersister.toType(AbstractEntityPersister.java:1987)
+	at org.hibernate.hql.internal.ast.tree.FromElementType.getPropertyType(FromElementType.java:396)
+	at org.hibernate.hql.internal.ast.tree.FromElement.getPropertyType(FromElement.java:515)
+	at org.hibernate.hql.internal.ast.tree.DotNode.getDataType(DotNode.java:682)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.lookupProperty(HqlSqlWalker.java:659)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.addrExpr(HqlSqlBaseWalker.java:5002)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.expr(HqlSqlBaseWalker.java:1286)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.orderExpr(HqlSqlBaseWalker.java:1864)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.orderExprs(HqlSqlBaseWalker.java:1661)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.orderClause(HqlSqlBaseWalker.java:1634)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:654)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:313)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:261)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:271)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:191)
+	... 119 common frames omitted
+
+2020-12-18 16:14:03.655  WARN 5240 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]]
+2020-12-18 16:19:59.384  INFO 1660 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 1660 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
+2020-12-18 16:19:59.388 DEBUG 1660 --- [restartedMain] com.example.BlogApplication              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-12-18 16:19:59.388  INFO 1660 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: dev
+2020-12-18 16:19:59.520  INFO 1660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-18 16:19:59.520  INFO 1660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-18 16:20:00.853  INFO 1660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-18 16:20:00.977  INFO 1660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115ms. Found 4 repository interfaces.
+2020-12-18 16:20:01.460  INFO 1660 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$53459400] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-18 16:20:02.107  INFO 1660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-18 16:20:02.163  INFO 1660 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-18 16:20:02.163  INFO 1660 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-18 16:20:02.172  INFO 1660 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-12-18 16:20:02.173  INFO 1660 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-12-18 16:20:02.174  INFO 1660 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-18 16:20:02.174  INFO 1660 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-18 16:20:03.266  INFO 1660 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-12-18 16:20:03.425  INFO 1660 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-18 16:20:03.425  INFO 1660 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3904 ms
+2020-12-18 16:20:03.702  INFO 1660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-18 16:20:03.832  INFO 1660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-18 16:20:03.906  INFO 1660 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-18 16:20:04.018  INFO 1660 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-18 16:20:04.021  INFO 1660 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-18 16:20:04.231  INFO 1660 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-18 16:20:04.529  INFO 1660 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-18 16:20:10.033  INFO 1660 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 16:20:10.106  INFO 1660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-18 16:20:10.495  INFO 1660 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-18 16:20:11.221  INFO 1660 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 16:20:11.301  WARN 1660 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-18 16:20:11.525  INFO 1660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-18 16:20:12.281  INFO 1660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-18 16:20:12.284  INFO 1660 --- [restartedMain] com.example.BlogApplication              : Started BlogApplication in 13.756 seconds (JVM running for 15.723)
+2020-12-18 16:20:16.122  INFO 1660 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-18 16:20:16.123  INFO 1660 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-18 16:20:16.137  INFO 1660 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-12-18 16:20:16.190  INFO 1660 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@58570393'}
+2020-12-18 16:20:16.317 ERROR 1660 --- [http-nio-8080-exec-2] c.e.handler.ControllerExceptionHandler   : Requst URL : http://localhost:8080/，Exception : {}
+
+org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:373)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:527)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy113.findTop(Unknown Source)
+	at com.example.service.impl.TypeServiceImpl.listTypeTop(TypeServiceImpl.java:76)
+	at com.example.service.impl.TypeServiceImpl$$FastClassBySpringCGLIB$$5bdae6d7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.example.service.impl.TypeServiceImpl$$EnhancerBySpringCGLIB$$753ba4dd.listTypeTop(<generated>)
+	at com.example.web.IndexController.index(IndexController.java:33)
+	at com.example.web.IndexController$$FastClassBySpringCGLIB$$c2f979e3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.example.web.IndexController$$EnhancerBySpringCGLIB$$6b0a0487.index(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy105.createQuery(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308)
+	at com.sun.proxy.$Proxy105.createQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery.createJpaQuery(AbstractStringBasedJpaQuery.java:146)
+	at org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery.doCreateQuery(AbstractStringBasedJpaQuery.java:88)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:210)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:129)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:91)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:136)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:125)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	... 83 common frames omitted
+Caused by: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]
+	at org.hibernate.QueryException.generateQueryException(QueryException.java:120)
+	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:103)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:219)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:611)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:720)
+	... 113 common frames omitted
+Caused by: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type
+	at org.hibernate.persister.entity.AbstractPropertyMapping.propertyException(AbstractPropertyMapping.java:73)
+	at org.hibernate.persister.entity.AbstractPropertyMapping.toType(AbstractPropertyMapping.java:67)
+	at org.hibernate.persister.entity.AbstractEntityPersister.toType(AbstractEntityPersister.java:1987)
+	at org.hibernate.hql.internal.ast.tree.FromElementType.getPropertyType(FromElementType.java:396)
+	at org.hibernate.hql.internal.ast.tree.FromElement.getPropertyType(FromElement.java:515)
+	at org.hibernate.hql.internal.ast.tree.DotNode.getDataType(DotNode.java:682)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.lookupProperty(HqlSqlWalker.java:659)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.addrExpr(HqlSqlBaseWalker.java:5002)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.expr(HqlSqlBaseWalker.java:1286)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.orderExpr(HqlSqlBaseWalker.java:1864)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.orderExprs(HqlSqlBaseWalker.java:1661)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.orderClause(HqlSqlBaseWalker.java:1634)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:654)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:313)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:261)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:271)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:191)
+	... 119 common frames omitted
+
+2020-12-18 16:20:16.320  WARN 1660 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: could not resolve property: blog of: com.example.po.Type [select t from com.example.po.Type t order by t.blog.size desc]]
+2020-12-18 16:22:03.464  INFO 18924 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 18924 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
+2020-12-18 16:22:03.470 DEBUG 18924 --- [restartedMain] com.example.BlogApplication              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-12-18 16:22:03.470  INFO 18924 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: dev
+2020-12-18 16:22:03.599  INFO 18924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-18 16:22:03.599  INFO 18924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-18 16:22:04.743  INFO 18924 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-18 16:22:04.881  INFO 18924 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127ms. Found 4 repository interfaces.
+2020-12-18 16:22:05.362  INFO 18924 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$154a600a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-18 16:22:05.988  INFO 18924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-18 16:22:06.023  INFO 18924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-18 16:22:06.024  INFO 18924 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-18 16:22:06.031  INFO 18924 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-12-18 16:22:06.032  INFO 18924 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-12-18 16:22:06.032  INFO 18924 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-18 16:22:06.032  INFO 18924 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-18 16:22:07.122  INFO 18924 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-12-18 16:22:07.275  INFO 18924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-18 16:22:07.275  INFO 18924 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3675 ms
+2020-12-18 16:22:07.551  INFO 18924 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-18 16:22:07.671  INFO 18924 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-18 16:22:07.734  INFO 18924 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-18 16:22:07.822  INFO 18924 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-18 16:22:07.824  INFO 18924 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-18 16:22:07.963  INFO 18924 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-18 16:22:08.316  INFO 18924 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-18 16:22:13.772  INFO 18924 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 16:22:13.846  INFO 18924 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-18 16:22:14.227  INFO 18924 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-18 16:22:14.908  INFO 18924 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 16:22:14.967  WARN 18924 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-18 16:22:15.141  INFO 18924 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-18 16:22:15.867  INFO 18924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-18 16:22:15.870  INFO 18924 --- [restartedMain] com.example.BlogApplication              : Started BlogApplication in 13.3 seconds (JVM running for 15.098)
+2020-12-18 16:25:06.414  INFO 18924 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-18 16:25:06.414  INFO 18924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-18 16:25:06.428  INFO 18924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-12-18 16:25:06.483  INFO 18924 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@4c165b9b'}
+2020-12-18 16:25:06.645  WARN 18924 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 16:25:06.661  WARN 18924 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 16:25:06.671  INFO 18924 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:26:43.501  INFO 21512 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 21512 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
+2020-12-18 16:26:43.505 DEBUG 21512 --- [restartedMain] com.example.BlogApplication              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-12-18 16:26:43.506  INFO 21512 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: dev
+2020-12-18 16:26:43.614  INFO 21512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-18 16:26:43.615  INFO 21512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-18 16:26:44.874  INFO 21512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-18 16:26:45.027  INFO 21512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140ms. Found 4 repository interfaces.
+2020-12-18 16:26:45.475  INFO 21512 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9203da02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-18 16:26:46.119  INFO 21512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-18 16:26:46.149  INFO 21512 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-18 16:26:46.150  INFO 21512 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-18 16:26:46.157  INFO 21512 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-12-18 16:26:46.158  INFO 21512 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-12-18 16:26:46.158  INFO 21512 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-18 16:26:46.158  INFO 21512 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-18 16:26:47.254  INFO 21512 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-12-18 16:26:47.556  INFO 21512 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-18 16:26:47.557  INFO 21512 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3940 ms
+2020-12-18 16:26:47.809  INFO 21512 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-18 16:26:47.953  INFO 21512 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-18 16:26:48.023  INFO 21512 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-18 16:26:48.131  INFO 21512 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-18 16:26:48.134  INFO 21512 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-18 16:26:48.295  INFO 21512 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-18 16:26:48.637  INFO 21512 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-18 16:26:54.621  INFO 21512 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 16:26:54.709  INFO 21512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-18 16:26:55.361  INFO 21512 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-18 16:26:56.463  INFO 21512 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 16:26:56.529  WARN 21512 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-18 16:26:56.718  INFO 21512 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-18 16:26:57.524  INFO 21512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-18 16:26:57.528  INFO 21512 --- [restartedMain] com.example.BlogApplication              : Started BlogApplication in 15.092 seconds (JVM running for 17.123)
+2020-12-18 16:26:57.636  INFO 21512 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-18 16:26:57.637  INFO 21512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-18 16:26:57.651  INFO 21512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-12-18 16:26:57.701  INFO 21512 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@bb23627'}
+2020-12-18 16:26:57.841  WARN 21512 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 16:26:57.858  WARN 21512 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 16:26:57.872  INFO 21512 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:27:04.123  INFO 21512 --- [http-nio-8080-exec-9] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@d1d324d'}
+2020-12-18 16:27:04.156  INFO 21512 --- [http-nio-8080-exec-9] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:29:31.393  INFO 21512 --- [http-nio-8080-exec-5] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@34c54c49'}
+2020-12-18 16:29:31.425  INFO 21512 --- [http-nio-8080-exec-5] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:29:33.783  INFO 21512 --- [http-nio-8080-exec-9] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@660efb06'}
+2020-12-18 16:29:33.803  INFO 21512 --- [http-nio-8080-exec-9] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:29:41.991  INFO 21512 --- [http-nio-8080-exec-4] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@78d2179f'}
+2020-12-18 16:29:42.011  INFO 21512 --- [http-nio-8080-exec-4] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:29:48.522  INFO 21512 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@67f35a22'}
+2020-12-18 16:29:48.554  INFO 21512 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:31:04.191  INFO 21512 --- [http-nio-8080-exec-7] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@26bc91c2'}
+2020-12-18 16:31:04.214  INFO 21512 --- [http-nio-8080-exec-7] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:31:07.211  INFO 21512 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@3cd4b727'}
+2020-12-18 16:31:07.240  INFO 21512 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:32:25.711  INFO 21512 --- [http-nio-8080-exec-6] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@315799fc'}
+2020-12-18 16:32:25.732  INFO 21512 --- [http-nio-8080-exec-6] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:32:29.935  INFO 21512 --- [http-nio-8080-exec-7] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@10b6c21'}
+2020-12-18 16:32:29.961  INFO 21512 --- [http-nio-8080-exec-7] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:33:50.011  INFO 21512 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@57cd1bea'}
+2020-12-18 16:33:50.036  INFO 21512 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:33:56.295  INFO 21512 --- [http-nio-8080-exec-6] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@2738b67'}
+2020-12-18 16:33:56.312  INFO 21512 --- [http-nio-8080-exec-6] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:34:09.546  INFO 21512 --- [http-nio-8080-exec-5] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@33304d58'}
+2020-12-18 16:34:09.566  INFO 21512 --- [http-nio-8080-exec-5] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:34:37.594  INFO 21512 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@644b4000'}
+2020-12-18 16:34:37.617  INFO 21512 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:34:51.097  INFO 21512 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@4a2d1332'}
+2020-12-18 16:34:51.113  INFO 21512 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:34:54.914  INFO 21512 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@194890c1'}
+2020-12-18 16:34:54.933  INFO 21512 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:36:52.246  INFO 21512 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@2aed4f41'}
+2020-12-18 16:36:52.266  INFO 21512 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:37:24.153  INFO 17968 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 17968 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
+2020-12-18 16:37:24.211 DEBUG 17968 --- [restartedMain] com.example.BlogApplication              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-12-18 16:37:24.212  INFO 17968 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: dev
+2020-12-18 16:37:24.278  INFO 17968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-18 16:37:24.279  INFO 17968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-18 16:37:25.321  INFO 17968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-18 16:37:25.457  INFO 17968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125ms. Found 4 repository interfaces.
+2020-12-18 16:37:25.839  INFO 17968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2cf3234a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-18 16:37:26.414  INFO 17968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-18 16:37:26.438  INFO 17968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-18 16:37:26.438  INFO 17968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-18 16:37:26.446  INFO 17968 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-12-18 16:37:26.446  INFO 17968 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-12-18 16:37:26.446  INFO 17968 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-18 16:37:26.446  INFO 17968 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-18 16:37:27.526  INFO 17968 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-12-18 16:37:27.679  INFO 17968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-18 16:37:27.679  INFO 17968 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3400 ms
+2020-12-18 16:37:27.955  INFO 17968 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-18 16:37:28.079  INFO 17968 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-18 16:37:28.140  INFO 17968 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-18 16:37:28.226  INFO 17968 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-18 16:37:28.228  INFO 17968 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-18 16:37:28.360  INFO 17968 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-18 16:37:28.720  INFO 17968 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-18 16:37:32.832  INFO 17968 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 16:37:32.936  INFO 17968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-18 16:37:33.456  INFO 17968 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-18 16:37:34.177  INFO 17968 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 16:37:34.248  WARN 17968 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-18 16:37:34.443  INFO 17968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-18 16:37:35.004  INFO 17968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-18 16:37:35.007  INFO 17968 --- [restartedMain] com.example.BlogApplication              : Started BlogApplication in 11.708 seconds (JVM running for 13.475)
+2020-12-18 16:37:43.993  INFO 17968 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-18 16:37:43.993  INFO 17968 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-18 16:37:44.011  INFO 17968 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-12-18 16:37:44.084  INFO 17968 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@1e50b4ab'}
+2020-12-18 16:37:44.225  WARN 17968 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 16:37:44.243  WARN 17968 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 16:37:44.252  INFO 17968 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:37:49.415  INFO 17968 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@2f468d3c'}
+2020-12-18 16:37:49.452  INFO 17968 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 16:44:22.837  INFO 21888 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 21888 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
+2020-12-18 16:44:22.842 DEBUG 21888 --- [restartedMain] com.example.BlogApplication              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-12-18 16:44:22.843  INFO 21888 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: dev
+2020-12-18 16:44:22.962  INFO 21888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-18 16:44:22.963  INFO 21888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-18 16:44:24.851  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-18 16:44:25.038  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158ms. Found 4 repository interfaces.
+2020-12-18 16:44:25.540  INFO 21888 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7fdab56c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-18 16:44:26.261  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-18 16:44:26.290  INFO 21888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-18 16:44:26.291  INFO 21888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-18 16:44:26.300  INFO 21888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-12-18 16:44:26.301  INFO 21888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-12-18 16:44:26.301  INFO 21888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-18 16:44:26.301  INFO 21888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-18 16:44:27.384  INFO 21888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-12-18 16:44:27.630  INFO 21888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-18 16:44:27.631  INFO 21888 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4667 ms
+2020-12-18 16:44:27.869  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-18 16:44:28.031  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-18 16:44:28.108  INFO 21888 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-18 16:44:28.218  INFO 21888 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-18 16:44:28.222  INFO 21888 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-18 16:44:28.434  INFO 21888 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-18 16:44:28.813  INFO 21888 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-18 16:44:35.491  INFO 21888 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 16:44:35.601  INFO 21888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-18 16:44:36.158  INFO 21888 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-18 16:44:37.082  INFO 21888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 16:44:37.171  WARN 21888 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-18 16:44:37.655  INFO 21888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-18 16:44:38.289  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-18 16:44:38.293  INFO 21888 --- [restartedMain] com.example.BlogApplication              : Started BlogApplication in 17.042 seconds (JVM running for 20.053)
+2020-12-18 16:45:26.960  INFO 21888 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-18 16:45:26.960  INFO 21888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-18 16:45:26.983  INFO 21888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2020-12-18 16:45:27.091  INFO 21888 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@a60fff8'}
+2020-12-18 17:41:07.754  WARN 21888 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m9s622ms747µs631ns).
+2020-12-18 17:41:07.791  INFO 21888 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@69af1248'}
+2020-12-18 17:41:07.793  INFO 21888 --- [http-nio-8080-exec-4] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@24e90475'}
+2020-12-18 17:41:07.795  INFO 21888 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@6e4cb826'}
+2020-12-18 17:41:08.427  WARN 21888 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 17:41:08.427  WARN 21888 --- [http-nio-8080-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 17:41:08.427  WARN 21888 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 17:41:08.458  WARN 21888 --- [http-nio-8080-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 17:41:08.492  INFO 21888 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:41:08.505  INFO 21888 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:41:08.532  INFO 21888 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:41:08.537  INFO 21888 --- [http-nio-8080-exec-4] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:41:10.850  INFO 21888 --- [Thread-31] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-18 17:41:10.853  INFO 21888 --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 17:41:10.861  INFO 21888 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-18 17:41:10.877  INFO 21888 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-18 17:41:12.383  INFO 21888 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 21888 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
+2020-12-18 17:41:12.387 DEBUG 21888 --- [restartedMain] com.example.BlogApplication              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-12-18 17:41:12.391  INFO 21888 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: dev
+2020-12-18 17:41:13.279  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-18 17:41:13.368  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 4 repository interfaces.
+2020-12-18 17:41:13.530  INFO 21888 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7fdab56c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-18 17:41:14.142  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-18 17:41:14.145  INFO 21888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-18 17:41:14.146  INFO 21888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-18 17:41:14.147  INFO 21888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-12-18 17:41:14.148  INFO 21888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-12-18 17:41:14.148  INFO 21888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-18 17:41:14.149  INFO 21888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-18 17:41:14.150  INFO 21888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-12-18 17:41:14.215  INFO 21888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-18 17:41:14.215  INFO 21888 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1815 ms
+2020-12-18 17:41:14.356  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-12-18 17:41:14.361  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-12-18 17:41:14.394  INFO 21888 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-18 17:41:14.805  INFO 21888 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-18 17:41:19.488  INFO 21888 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 17:41:19.563  INFO 21888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-18 17:41:19.799  INFO 21888 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-18 17:41:20.550  INFO 21888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 17:41:20.591  WARN 21888 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-18 17:41:20.752  INFO 21888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-18 17:41:21.431  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-18 17:41:21.432  INFO 21888 --- [restartedMain] com.example.BlogApplication              : Started BlogApplication in 9.263 seconds (JVM running for 3423.207)
+2020-12-18 17:41:21.436  INFO 21888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-12-18 17:41:26.067  INFO 21888 --- [Thread-50] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-18 17:41:26.070  INFO 21888 --- [Thread-50] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 17:41:26.072  INFO 21888 --- [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-12-18 17:41:26.083  INFO 21888 --- [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-12-18 17:41:33.714  INFO 22492 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 22492 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
+2020-12-18 17:41:33.726 DEBUG 22492 --- [restartedMain] com.example.BlogApplication              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-12-18 17:41:33.726  INFO 22492 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: dev
+2020-12-18 17:41:33.867  INFO 22492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-18 17:41:33.867  INFO 22492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-18 17:41:35.910  INFO 22492 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-18 17:41:36.128  INFO 22492 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 182ms. Found 4 repository interfaces.
+2020-12-18 17:41:37.042  INFO 22492 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b302a3cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-18 17:41:37.986  INFO 22492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-18 17:41:38.022  INFO 22492 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-18 17:41:38.023  INFO 22492 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-18 17:41:38.035  INFO 22492 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-12-18 17:41:38.036  INFO 22492 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-12-18 17:41:38.036  INFO 22492 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-18 17:41:38.036  INFO 22492 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-18 17:41:39.134  INFO 22492 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-12-18 17:41:39.450  INFO 22492 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-18 17:41:39.450  INFO 22492 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5582 ms
+2020-12-18 17:41:39.818  INFO 22492 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-18 17:41:40.062  INFO 22492 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-18 17:41:40.137  INFO 22492 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-18 17:41:40.234  INFO 22492 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-18 17:41:40.237  INFO 22492 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-18 17:41:40.401  INFO 22492 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-18 17:41:40.787  INFO 22492 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-18 17:41:46.455  INFO 22492 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 17:41:46.548  INFO 22492 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-18 17:41:47.072  INFO 22492 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-18 17:41:47.957  INFO 22492 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 17:41:48.052  WARN 22492 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-18 17:41:48.282  INFO 22492 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-18 17:41:49.168  INFO 22492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-18 17:41:49.173  INFO 22492 --- [restartedMain] com.example.BlogApplication              : Started BlogApplication in 16.625 seconds (JVM running for 19.472)
+2020-12-18 17:42:16.827  INFO 22492 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-18 17:42:16.827  INFO 22492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-18 17:42:16.850  INFO 22492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2020-12-18 17:42:16.914  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@3d78b19e'}
+2020-12-18 17:42:17.118  WARN 22492 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 17:42:17.143  WARN 22492 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 17:42:17.162  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:43:35.444  INFO 22492 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@6eef48af'}
+2020-12-18 17:43:35.479  INFO 22492 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:44:23.212  INFO 22492 --- [http-nio-8080-exec-5] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@5656bfdb'}
+2020-12-18 17:44:23.254  INFO 22492 --- [http-nio-8080-exec-5] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:47:07.093  INFO 22492 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@309a1ffc'}
+2020-12-18 17:47:07.117  INFO 22492 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:47:22.362  INFO 22492 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@124646d2'}
+2020-12-18 17:47:22.391  INFO 22492 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:47:26.386  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@3fead264'}
+2020-12-18 17:47:26.414  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:48:32.942  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@622e641e'}
+2020-12-18 17:48:32.969  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:49:22.693  INFO 22492 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@64981164'}
+2020-12-18 17:49:22.729  INFO 22492 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:49:37.363  INFO 22492 --- [http-nio-8080-exec-5] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@510c329c'}
+2020-12-18 17:49:37.386  INFO 22492 --- [http-nio-8080-exec-5] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:50:17.578  INFO 22492 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@6a90f31'}
+2020-12-18 17:50:17.603  INFO 22492 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:50:38.947  INFO 22492 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@58d8bd60'}
+2020-12-18 17:50:38.973  INFO 22492 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:51:38.588  INFO 22492 --- [http-nio-8080-exec-6] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@6b247c95'}
+2020-12-18 17:51:38.610  INFO 22492 --- [http-nio-8080-exec-6] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:51:46.445  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@6965ce41'}
+2020-12-18 17:51:46.472  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:53:02.093  INFO 22492 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@35632241'}
+2020-12-18 17:53:02.116  INFO 22492 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:54:15.493  INFO 22492 --- [http-nio-8080-exec-4] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@2b0c86be'}
+2020-12-18 17:54:15.525  INFO 22492 --- [http-nio-8080-exec-4] com.example.aspect.LogAspect             : Result:index
+2020-12-18 17:55:58.821  INFO 22492 --- [http-nio-8080-exec-5] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@1ea01804'}
+2020-12-18 17:55:58.844  INFO 22492 --- [http-nio-8080-exec-5] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:14:38.411  INFO 22492 --- [http-nio-8080-exec-7] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@713c6e77'}
+2020-12-18 18:14:38.435  INFO 22492 --- [http-nio-8080-exec-7] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:15:25.903  INFO 22492 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@49d7932f'}
+2020-12-18 18:15:25.928  INFO 22492 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:16:20.238  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@53e06841'}
+2020-12-18 18:16:20.260  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:18:10.525  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@eb3a504'}
+2020-12-18 18:18:10.543  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:19:27.542  INFO 22492 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@5a681fc0'}
+2020-12-18 18:19:27.561  INFO 22492 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:20:46.851  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@1e327a7'}
+2020-12-18 18:20:46.878  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:21:53.588  INFO 22492 --- [http-nio-8080-exec-9] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@787dd0f8'}
+2020-12-18 18:21:53.615  INFO 22492 --- [http-nio-8080-exec-9] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:22:33.293  INFO 22492 --- [http-nio-8080-exec-7] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@3492e562'}
+2020-12-18 18:22:33.315  INFO 22492 --- [http-nio-8080-exec-7] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:35:55.604  INFO 22492 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@55de1d55'}
+2020-12-18 18:35:55.625  INFO 22492 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:36:02.919  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@13dc28f9'}
+2020-12-18 18:36:02.936  INFO 22492 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:36:06.478  INFO 22492 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@44e2bf7'}
+2020-12-18 18:36:06.494  INFO 22492 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:36:09.142  INFO 22492 --- [http-nio-8080-exec-5] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@59e6229a'}
+2020-12-18 18:36:09.162  INFO 22492 --- [http-nio-8080-exec-5] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:36:16.335  INFO 22492 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@641ffaf0'}
+2020-12-18 18:36:16.352  INFO 22492 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:36:21.234  INFO 22492 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@3cad0a05'}
+2020-12-18 18:36:21.253  INFO 22492 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:36:37.560  INFO 22492 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@325ea0f8'}
+2020-12-18 18:36:37.575  INFO 22492 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:36:41.497  INFO 22492 --- [http-nio-8080-exec-7] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@5276ecd8'}
+2020-12-18 18:36:41.514  INFO 22492 --- [http-nio-8080-exec-7] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:53:06.394  INFO 22492 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@39acfaad'}
+2020-12-18 18:53:06.436  INFO 22492 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:54:04.532  INFO 22492 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@5033fe90'}
+2020-12-18 18:54:04.551  INFO 22492 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:57:06.531  INFO 22492 --- [http-nio-8080-exec-6] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@38223b32'}
+2020-12-18 18:57:06.553  INFO 22492 --- [http-nio-8080-exec-6] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:58:36.225  INFO 22492 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@3fc5b3fe'}
+2020-12-18 18:58:36.247  INFO 22492 --- [http-nio-8080-exec-8] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:58:44.796  INFO 22492 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@3f1ab427'}
+2020-12-18 18:58:44.814  INFO 22492 --- [http-nio-8080-exec-10] com.example.aspect.LogAspect             : Result:index
+2020-12-18 18:59:26.600  INFO 11028 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 11028 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
+2020-12-18 18:59:26.606 DEBUG 11028 --- [restartedMain] com.example.BlogApplication              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-12-18 18:59:26.606  INFO 11028 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: dev
+2020-12-18 18:59:26.733  INFO 11028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-18 18:59:26.733  INFO 11028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-18 18:59:27.849  INFO 11028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-18 18:59:27.989  INFO 11028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130ms. Found 4 repository interfaces.
+2020-12-18 18:59:28.397  INFO 11028 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a732bfa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-18 18:59:28.970  INFO 11028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-18 18:59:28.993  INFO 11028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-18 18:59:28.993  INFO 11028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-18 18:59:29.001  INFO 11028 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-12-18 18:59:29.002  INFO 11028 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-12-18 18:59:29.003  INFO 11028 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-18 18:59:29.003  INFO 11028 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-18 18:59:30.076  INFO 11028 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-12-18 18:59:30.228  INFO 11028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-18 18:59:30.228  INFO 11028 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3495 ms
+2020-12-18 18:59:30.501  INFO 11028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-18 18:59:30.622  INFO 11028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-18 18:59:30.688  INFO 11028 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-18 18:59:30.777  INFO 11028 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-18 18:59:30.779  INFO 11028 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-18 18:59:30.903  INFO 11028 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-18 18:59:31.209  INFO 11028 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-18 18:59:35.027  INFO 11028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 18:59:35.109  INFO 11028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-18 18:59:35.548  INFO 11028 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-18 18:59:36.216  INFO 11028 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 18:59:36.279  WARN 11028 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-18 18:59:36.493  INFO 11028 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-18 18:59:37.076  INFO 11028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-18 18:59:37.084  INFO 11028 --- [restartedMain] com.example.BlogApplication              : Started BlogApplication in 11.269 seconds (JVM running for 13.501)
+2020-12-18 18:59:50.096  INFO 11028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-18 18:59:50.096  INFO 11028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-18 18:59:50.113  INFO 11028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-12-18 18:59:50.163  INFO 11028 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@5ff56d4e'}
+2020-12-18 18:59:50.405  WARN 11028 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 18:59:50.425  WARN 11028 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 18:59:50.441  INFO 11028 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 19:00:48.363  INFO 14260 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 14260 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
+2020-12-18 19:00:48.368 DEBUG 14260 --- [restartedMain] com.example.BlogApplication              : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-12-18 19:00:48.369  INFO 14260 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: dev
+2020-12-18 19:00:48.494  INFO 14260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-18 19:00:48.495  INFO 14260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-18 19:00:49.591  INFO 14260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-18 19:00:49.706  INFO 14260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106ms. Found 4 repository interfaces.
+2020-12-18 19:00:50.149  INFO 14260 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$42da4ae4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-18 19:00:50.754  INFO 14260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-18 19:00:50.779  INFO 14260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-18 19:00:50.780  INFO 14260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-18 19:00:50.788  INFO 14260 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-12-18 19:00:50.788  INFO 14260 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-12-18 19:00:50.789  INFO 14260 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-18 19:00:50.789  INFO 14260 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-18 19:00:51.876  INFO 14260 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-12-18 19:00:52.338  INFO 14260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-18 19:00:52.339  INFO 14260 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3844 ms
+2020-12-18 19:00:52.630  INFO 14260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-18 19:00:52.754  INFO 14260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-18 19:00:52.821  INFO 14260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-18 19:00:52.922  INFO 14260 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-18 19:00:52.924  INFO 14260 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-18 19:00:53.065  INFO 14260 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-18 19:00:53.398  INFO 14260 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-18 19:00:57.511  INFO 14260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 19:00:57.593  INFO 14260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-18 19:00:57.974  INFO 14260 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-18 19:00:58.668  INFO 14260 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 19:00:58.723  WARN 14260 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-18 19:00:58.888  INFO 14260 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-18 19:00:59.709  INFO 14260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-18 19:00:59.712  INFO 14260 --- [restartedMain] com.example.BlogApplication              : Started BlogApplication in 12.287 seconds (JVM running for 14.315)
+2020-12-18 19:00:59.948  INFO 14260 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-18 19:00:59.948  INFO 14260 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-18 19:00:59.963  INFO 14260 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-12-18 19:01:00.013  INFO 14260 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@4ef36498'}
+2020-12-18 19:01:00.198  WARN 14260 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 19:01:00.227  WARN 14260 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-18 19:01:00.243  INFO 14260 --- [http-nio-8080-exec-1] com.example.aspect.LogAspect             : Result:index
+2020-12-18 19:01:00.658  INFO 14260 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@63e7e0c0'}
+2020-12-18 19:01:00.706  INFO 14260 --- [http-nio-8080-exec-2] com.example.aspect.LogAspect             : Result:index
+2020-12-18 19:01:07.060  INFO 14260 --- [http-nio-8080-exec-9] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@f01bcd3'}
+2020-12-18 19:01:07.088  INFO 14260 --- [http-nio-8080-exec-9] com.example.aspect.LogAspect             : Result:index
+2020-12-18 19:01:09.837  INFO 14260 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Request : Request{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.web.IndexController.index', args='[Ljava.lang.Object;@4a550238'}
+2020-12-18 19:01:09.865  INFO 14260 --- [http-nio-8080-exec-3] com.example.aspect.LogAspect             : Result:index
+2020-12-18 19:17:47.780  WARN 14260 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m24s926ms336µs469ns).

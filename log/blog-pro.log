@@ -1,0 +1,7 @@
+2020-12-11 18:12:08.522  INFO 9208 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 9208 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
+2020-12-11 18:12:08.530  INFO 9208 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: pro
+2020-12-11 18:12:17.411  WARN 9208 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-11 18:12:17.510  WARN 9208 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11 18:12:17.866  INFO 9208 --- [restartedMain] com.example.BlogApplication              : Started BlogApplication in 10.781 seconds (JVM running for 14.058)
+2020-12-11 18:21:20.781  INFO 780 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 780 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
+2020-12-11 18:21:20.787  INFO 780 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: pro
