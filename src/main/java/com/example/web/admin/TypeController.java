@@ -76,7 +76,7 @@ public class TypeController {
             result.rejectValue("name","nameError","不能添加重复的分类");
         }
 
-        if (result.hasErrors()){
+        if (result.hasErrors()){    //检验参数
             return "admin/types-input";
         }
         Type t = typeService.saveType(type);

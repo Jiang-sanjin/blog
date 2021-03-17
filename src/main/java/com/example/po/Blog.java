@@ -15,28 +15,28 @@ public class Blog {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String title;
+    private Long id;  //主键
+    private String title;  //博客标题
 
     @Basic(fetch = FetchType.LAZY)
     @Lob
-    private String content;  //设置为长类型
-    private String firstPicture;
-    private String flag;
-    private Integer views;
-    private boolean appreciation;
-    private boolean shareStatement;
-    private boolean commentabled;
-    private boolean published;
-    private boolean recommend;
+    private String content;  //博客内容   设置为长类型
+    private String firstPicture;  //首图地址
+    private String flag;     //标记是否原创
+    private Integer views;   //游览次数
+    private boolean appreciation;   //是否开启赞赏功能
+    private boolean shareStatement;  //是否开启版权
+    private boolean commentabled;   //是否开启评论
+    private boolean published;     //是否发布
+    private boolean recommend;     //是否推荐
     @Temporal(TemporalType.TIMESTAMP)
-    private Date createTime;
+    private Date createTime;     //创建时间
     @Temporal(TemporalType.TIMESTAMP)
-    private Date updateTime;
+    private Date updateTime;     //修改更新的时间
 
     private String description;  //博客描述
 
-    @ManyToOne
+    @ManyToOne      //Many关系维护端
     private Type type;   //一个分类对应多个博客
 
     @ManyToMany(cascade = {CascadeType.PERSIST})
@@ -202,7 +202,7 @@ public class Blog {
         this.tagIds = tagsToIds(this.getTags());
     }
 
-    //1,2,3
+    //获取tag的id  1,2,3
     private String tagsToIds(List<Tag> tags) {
         if (!tags.isEmpty()) {
             StringBuffer ids = new StringBuffer();

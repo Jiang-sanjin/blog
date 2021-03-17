@@ -70,9 +70,9 @@ public class TypeServiceImpl implements TypeService {
     @Override
     public List<Type> listTypeTop(Integer size) {
 
-        // 设置排序对象
-        Sort sort = Sort.by(Sort.Direction.DESC,"blogs.size");
-        Pageable pageable = PageRequest.of(0, size, sort);
+        // 设置排序对象   blogs集合的大小
+        Sort sort = Sort.by(Sort.Direction.DESC,"blogs.size");   //根据博客大小排序
+        Pageable pageable = PageRequest.of(0, size, sort);   //排序取前size个
         return typeRepository.findTop(pageable);
     }
 

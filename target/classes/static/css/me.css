@@ -6,7 +6,7 @@ body {
 .m-padded-mini {
     padding: 0.2em !important;
 }
-/* 内部间隔减小 */
+
 .m-padded-tiny {
     padding: 0.3em !important;
 }
@@ -59,7 +59,6 @@ body {
     letter-spacing: 1px !important;
     line-height: 1.8;
 }
-/* 文字设置细小 */
 .m-text-thin {
     font-weight: 300 !important;
 }
@@ -114,7 +113,7 @@ body {
 
 
 /*-----container*/
-/* 水平方向居中 */
+
 .m-container {
     max-width: 72em !important;
     margin: auto !important;
@@ -147,11 +146,16 @@ body {
 .m-black {
     color: #333 !important;
 }
+.m-teal {
+    color: #00b5ad !important;
+}
+
+
 
 .m-mobile-show {
    display: none !important;
 }
-/* 手机端隐藏 */
+
 @media screen and (max-width: 768px){
     .m-mobile-hide {
         display: none !important;

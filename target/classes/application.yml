@@ -4,4 +4,6 @@ spring:
     suffix: .html
     mode: HTML
   profiles:
-    active: dev
+    active: pro
+
+comment.avatar: /images/cat.jpg

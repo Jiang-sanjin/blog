@@ -17,12 +17,15 @@ import javax.servlet.http.HttpServletRequest;
 @Component
 public class LogAspect {
 
+    //获取日志信息
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
+    // 定义切面，声明log是一个切面
     @Pointcut("execution(* com.example.web.*.*(..))")
     public void log(){}
 
 
+    // 在切面之前执行   获取请求的信息
     @Before("log()")
     public void doBefore(JoinPoint joinPoint){
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
@@ -36,14 +39,16 @@ public class LogAspect {
         logger.info("Request : {}",requestLog);
     }
 
+    //切面之后执行
     @After("log()")
     public void doAfter(){
         // logger.info("----------------After-----------");
     }
 
+    //返回之后拦截    获取返回的信息
     @AfterReturning(returning = "result", pointcut = "log()")
     public void doAfterRuturn(Object result){
-        logger.info("Result:{}",result);
+        logger.info("Result:{ }",result);
     }
 
     private class RequestLog{

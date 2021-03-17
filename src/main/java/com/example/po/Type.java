@@ -16,7 +16,7 @@ public class Type {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @NotBlank(message = "分类名称不能为空")
-    private String name;
+    private String name; //分类名称
 
     @OneToMany(mappedBy = "type")
     private List<Blog> blogs = new ArrayList<>();

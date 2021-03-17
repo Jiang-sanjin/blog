@@ -14,17 +14,17 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String nickname;
-    private String username;
-    private String password;
-    private String email;
-    private String avatar;
-    private Integer type;
+    private Long id; //用户id
+    private String nickname;  //用户昵称
+    private String username;  //用户名
+    private String password;  //用户密码
+    private String email;     //用户邮箱
+    private String avatar;    //用户头像
+    private Integer type;     //用户类型
     @Temporal(TemporalType.TIMESTAMP)
-    private Date createTime;
+    private Date createTime;   //创建时间
     @Temporal(TemporalType.TIMESTAMP)
-    private Date updateTime;
+    private Date updateTime;   //更新时间
 
     @OneToMany(mappedBy = "user")
     private List<Blog> blogs = new ArrayList<>();

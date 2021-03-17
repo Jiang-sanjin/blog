@@ -18,13 +18,8 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Predicate;
-import javax.persistence.criteria.Root;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import javax.persistence.criteria.*;
+import java.util.*;
 
 @Service
 public class BlogServiceImpl implements BlogService {
@@ -37,6 +32,12 @@ public class BlogServiceImpl implements BlogService {
         return blogRepository.findById(id).orElse(null);
     }
 
+
+    /**
+     * 博客详情页面
+     * @param id
+     * @return
+     */
     @Transactional
     @Override
     public Blog getAndConvert(Long id) {
@@ -85,10 +86,21 @@ public class BlogServiceImpl implements BlogService {
     }
 
     @Override
+    public Page<Blog> listBlog(Long tagId, Pageable pageable) {
+        return blogRepository.findAll(new Specification<Blog>() {
+            @Override
+            public Predicate toPredicate(Root<Blog> root, CriteriaQuery<?> cq, CriteriaBuilder cb) {
+                Join join = root.join("tags");
+                return cb.equal(join.get("id"),tagId);
+            }
+        },pageable);
+    }
+    @Override
     public Page<Blog> listBlog(String query, Pageable pageable) {
         return blogRepository.findByQuery(query,pageable);
     }
 
+    //推荐博客
     @Override
     public List<Blog> listRecommendBlogTop(Integer size) {
         // 设置排序对象
@@ -96,6 +108,32 @@ public class BlogServiceImpl implements BlogService {
         Pageable pageable = PageRequest.of(0, size, sort);
         return blogRepository.findTop(pageable);
     }
+
+    @Override
+    public Map<String, List<Blog>> archiveBlog() {
+        List<String> years = blogRepository.findGroupYear();
+        Map<String, List<Blog>> map = new HashMap<>();
+        for (String year : years) {
+            map.put(year, blogRepository.findByYear(year));
+        }
+        return map;
+    }
+
+    @Override
+    public Long countBlog() {
+        return blogRepository.count();
+    }
+
+
+    //最新博客
+    @Override
+    public List<Blog> listNewBlog(Integer size) {
+        // 设置排序对象
+        Sort sort = Sort.by(Sort.Direction.DESC,"updateTime");
+        Pageable pageable = PageRequest.of(0, size, sort);
+        return blogRepository.findNewBlog(pageable);
+    }
+
 
     @Transactional
     @Override
@@ -128,4 +166,6 @@ public class BlogServiceImpl implements BlogService {
     public void deleteBlog(Long id) {
         blogRepository.deleteById(id);
     }
+
+
 }

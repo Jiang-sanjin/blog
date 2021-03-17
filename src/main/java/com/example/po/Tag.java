@@ -16,7 +16,7 @@ public class Tag {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
+    private String name;  //标签名称
 
     @ManyToMany(mappedBy = "tags")
     private List<Blog> blogs = new ArrayList<>();   //一个博客对应多个标签

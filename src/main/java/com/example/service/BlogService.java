@@ -6,6 +6,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 import java.util.List;
+import java.util.Map;
 
 public interface BlogService {
 
@@ -20,11 +21,17 @@ public interface BlogService {
 
     Page<Blog> listBlog(Pageable pageable);
 
+    Page<Blog> listBlog(Long tagId, Pageable pageable);
+
     //根据查询跳转页面
     Page<Blog> listBlog(String query, Pageable pageable);
 
 
     List<Blog> listRecommendBlogTop(Integer size);
+
+    Map<String,List<Blog>> archiveBlog();
+
+    Long countBlog();
 
     //新增
     Blog saveBlog(Blog blog);
@@ -35,9 +42,5 @@ public interface BlogService {
     void deleteBlog(Long id);
 
 
-
-
-
-
-
+    List<Blog> listNewBlog(Integer size);
 }

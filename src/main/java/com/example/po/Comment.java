@@ -15,22 +15,23 @@ public class Comment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)   //实现自增
     private Long id;
-    private String nickname;
-    private String email;
-    private String content;
-    private String avatar;
+    private String nickname;  //昵称
+    private String email;    //邮箱
+    private String content;  //评论内容
+    private String avatar;   //头像
     @Temporal(TemporalType.TIMESTAMP)   //获取时间
-    private Date createTime;
+    private Date createTime;    //创建时间
 
     @ManyToOne
     private Blog blog;  //关系维护端  多的一端
 
     //自关联
     @OneToMany(mappedBy = "parentComment")    //一个父类对应多个子类
-    private List<Comment> replyComment = new ArrayList<>();
+    private List<Comment> replyComments = new ArrayList<>();  //回复评论集合
     @ManyToOne
-    private Comment parentComment;
+    private Comment parentComment;  //评论
 
+    private boolean adminComment;
 
     public Comment() {
     }
@@ -92,12 +93,12 @@ public class Comment {
         this.blog = blog;
     }
 
-    public List<Comment> getReplyComment() {
-        return replyComment;
+    public List<Comment> getReplyComments() {
+        return replyComments;
     }
 
-    public void setReplyComment(List<Comment> replyComment) {
-        this.replyComment = replyComment;
+    public void setReplyComments(List<Comment> replyComment) {
+        this.replyComments = replyComment;
     }
 
     public Comment getParentComment() {
@@ -106,6 +107,14 @@ public class Comment {
 
     public void setParentComment(Comment parentComment) {
         this.parentComment = parentComment;
+    }
+
+    public boolean isAdminComment() {
+        return adminComment;
+    }
+
+    public void setAdminComment(boolean adminComment) {
+        this.adminComment = adminComment;
     }
 
     @Override
@@ -117,6 +126,10 @@ public class Comment {
                 ", content='" + content + '\'' +
                 ", avatar='" + avatar + '\'' +
                 ", createTime=" + createTime +
+                ", blog=" + blog +
+                ", replyComments=" + replyComments +
+                ", parentComment=" + parentComment +
+                ", adminComment=" + adminComment +
                 '}';
     }
 }

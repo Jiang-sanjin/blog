@@ -6,7 +6,6 @@ import com.example.service.BlogService;
 import com.example.service.TagService;
 import com.example.service.TypeService;
 import com.example.vo.BlogQuery;
-import jdk.internal.util.xml.impl.Input;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
@@ -89,12 +88,16 @@ public class BlogController {
     public String editInput(@PathVariable Long id,Model model){
         setTypeAndTag(model);
         Blog blog = blogService.getBlog(id);
-        blog.init();   //将blog初始化一个字符串
+        blog.init();   //将blog对象  初始化一个字符串
         model.addAttribute("blog",blog);
         return INPUT;
 
     }
 
+    /**
+     * 传送 types 和 tags
+     * @param model
+     */
     private void setTypeAndTag(Model model) {
         model.addAttribute("types", typeService.listType());
         model.addAttribute("tags", tagService.listTag());
