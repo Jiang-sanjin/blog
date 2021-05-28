@@ -22,36 +22,37 @@ public class LogAspect {
 
     // 定义切面，声明log是一个切面
     @Pointcut("execution(* com.example.web.*.*(..))")
-    public void log(){}
+    public void log() {
+    }
 
 
     // 在切面之前执行   获取请求的信息
     @Before("log()")
-    public void doBefore(JoinPoint joinPoint){
+    public void doBefore(JoinPoint joinPoint) {
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         HttpServletRequest request = attributes.getRequest();
         String url = request.getRequestURL().toString();
         String ip = request.getRemoteAddr();
-        String classMethod = joinPoint.getSignature().getDeclaringTypeName() +"." + joinPoint.getSignature().getName();
+        String classMethod = joinPoint.getSignature().getDeclaringTypeName() + "." + joinPoint.getSignature().getName();
         Object[] args = joinPoint.getArgs();
-        RequestLog requestLog = new RequestLog(url,ip,classMethod,args);
+        RequestLog requestLog = new RequestLog(url, ip, classMethod, args);
 
-        logger.info("Request : {}",requestLog);
+        logger.info("Request : {}", requestLog);
     }
 
     //切面之后执行
     @After("log()")
-    public void doAfter(){
+    public void doAfter() {
         // logger.info("----------------After-----------");
     }
 
     //返回之后拦截    获取返回的信息
     @AfterReturning(returning = "result", pointcut = "log()")
-    public void doAfterRuturn(Object result){
-        logger.info("Result:{ }",result);
+    public void doAfterRuturn(Object result) {
+        logger.info("Result:{ }", result);
     }
 
-    private class RequestLog{
+    private class RequestLog {
         private String url;
         private String ip;
         private String classMethod;  //调用方法

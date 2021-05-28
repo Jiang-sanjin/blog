@@ -27,14 +27,14 @@ public class CommentController {
     private String avatar;
 
     @GetMapping("/comments/{blogId}")
-    public String comments(@PathVariable Long blogId, Model model){
-        model.addAttribute("comments",commentService.listCommentByBlogId(blogId));
+    public String comments(@PathVariable Long blogId, Model model) {
+        model.addAttribute("comments", commentService.listCommentByBlogId(blogId));
         return "blog :: commentList";
 
     }
 
     @PostMapping("/comments")
-    public String post(Comment comment, HttpSession session){
+    public String post(Comment comment, HttpSession session) {
         Long blogId = comment.getBlog().getId();
         comment.setBlog(blogService.getBlog(blogId));
         User user = (User) session.getAttribute("user");

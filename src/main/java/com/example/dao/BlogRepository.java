@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
-public interface BlogRepository extends JpaRepository<Blog,Long> {
+public interface BlogRepository extends JpaRepository<Blog, Long> {
 
     Page<Blog> findAll(Specification<Blog> blogSpecification, Pageable pageable);
 
@@ -18,7 +18,7 @@ public interface BlogRepository extends JpaRepository<Blog,Long> {
     List<Blog> findTop(Pageable pageable);
 
     @Query("select b from Blog b where b.title like ?1 or b.content like ?1")
-    Page<Blog> findByQuery(String query,Pageable pageable);
+    Page<Blog> findByQuery(String query, Pageable pageable);
 
 
     //更新游览次数

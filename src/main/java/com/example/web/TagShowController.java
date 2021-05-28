@@ -25,15 +25,15 @@ public class TagShowController {
     private BlogService blogService;
 
     @GetMapping("/tags/{id}")
-    public String tags(@PageableDefault(size = 8,sort = {"updateTime"},direction = Sort.Direction.DESC)  //设置pageable 设置排序方式
-                               Pageable pageable, @PathVariable Long id, Model model){
+    public String tags(@PageableDefault(size = 8, sort = {"updateTime"}, direction = Sort.Direction.DESC)  //设置pageable 设置排序方式
+                               Pageable pageable, @PathVariable Long id, Model model) {
 
         List<Tag> tags = tagService.listTagTop(1000);
-        if ( id == -1 ){
+        if (id == -1) {
             id = tags.get(0).getId();
         }
         model.addAttribute("tags", tags);
-        model.addAttribute("page", blogService.listBlog(id,pageable));
+        model.addAttribute("page", blogService.listBlog(id, pageable));
         model.addAttribute("activeTagId", id);
 
         return "tags";

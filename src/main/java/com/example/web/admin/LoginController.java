@@ -21,7 +21,7 @@ public class LoginController {
     private UserService userService;
 
     @GetMapping
-    public String loginPage(){
+    public String loginPage() {
         return "admin/login";
     }
 
@@ -29,22 +29,21 @@ public class LoginController {
     public String login(@RequestParam String username,
                         @RequestParam String password,
                         HttpSession session,
-                        RedirectAttributes attributes){  //RedirectAttributes 重定向设置信息
+                        RedirectAttributes attributes) {  //RedirectAttributes 重定向设置信息
         User user = userService.checkUser(username, MD5Utils.code(password));
 
-        if (user!=null){
+        if (user != null) {
             user.setPassword(null);
-            session.setAttribute("user",user);
+            session.setAttribute("user", user);
             return "admin/index";
-        }
-        else{
-            attributes.addFlashAttribute("message","用户名或密码错误");
+        } else {
+            attributes.addFlashAttribute("message", "用户名或密码错误");
             return "redirect:/admin";
         }
     }
 
     @GetMapping("/logout")
-    public String logout(HttpSession session){
+    public String logout(HttpSession session) {
         session.removeAttribute("user");
         return "redirect:/admin";
     }

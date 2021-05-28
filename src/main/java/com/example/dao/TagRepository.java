@@ -7,14 +7,13 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
-public interface TagRepository extends JpaRepository<Tag,Long> {
+public interface TagRepository extends JpaRepository<Tag, Long> {
 
     //根据名字查询
     Tag findByName(String name);
 
     @Query("select t from Tag t")
     List<Tag> findTop(Pageable pageable);
-
 
 
 }

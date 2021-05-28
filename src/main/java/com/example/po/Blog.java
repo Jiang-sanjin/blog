@@ -198,6 +198,7 @@ public class Blog {
     public void setTagIds(String tagIds) {
         this.tagIds = tagIds;
     }
+
     public void init() {
         this.tagIds = tagsToIds(this.getTags());
     }

@@ -29,37 +29,37 @@ public class IndexController {
     private TagService tagService;
 
     @GetMapping("/")
-    public String index(@PageableDefault(size = 8,sort = {"updateTime"},direction = Sort.Direction.DESC)  //设置pageable 设置排序方式
-                                    Pageable pageable,  Model model){
-        model.addAttribute("page",blogService.listBlog(pageable));
+    public String index(@PageableDefault(size = 8, sort = {"updateTime"}, direction = Sort.Direction.DESC)  //设置pageable 设置排序方式
+                                Pageable pageable, Model model) {
+        model.addAttribute("page", blogService.listBlog(pageable));
 
-        model.addAttribute("types",typeService.listTypeTop(6));
-        model.addAttribute("tags",tagService.listTagTop(10));
-        model.addAttribute("recommendBlogs",blogService.listRecommendBlogTop(6));
+        model.addAttribute("types", typeService.listTypeTop(6));
+        model.addAttribute("tags", tagService.listTagTop(10));
+        model.addAttribute("recommendBlogs", blogService.listRecommendBlogTop(6));
         return "index";
 
     }
 
     @PostMapping("/search")
-    public String search(@PageableDefault(size = 8,sort = {"updateTime"},direction = Sort.Direction.DESC)  //设置pageable 设置排序方式
-                                Pageable pageable, @RequestParam String query, Model model) {
-        model.addAttribute("page", blogService.listBlog("%"+query+"%",pageable));
+    public String search(@PageableDefault(size = 8, sort = {"updateTime"}, direction = Sort.Direction.DESC)  //设置pageable 设置排序方式
+                                 Pageable pageable, @RequestParam String query, Model model) {
+        model.addAttribute("page", blogService.listBlog("%" + query + "%", pageable));
         model.addAttribute("query", query);
 
         return "search";
     }
 
     @GetMapping("/blog/{id}")
-    public String blog(@PathVariable Long id,Model model){
-        model.addAttribute("blog",blogService.getAndConvert(id));
+    public String blog(@PathVariable Long id, Model model) {
+        model.addAttribute("blog", blogService.getAndConvert(id));
 
         return "blog";
     }
 
 
     @GetMapping("/footer/newblog")
-    public String newblogs(Model model){
-        model.addAttribute("newblogs",blogService.listNewBlog(3));
+    public String newblogs(Model model) {
+        model.addAttribute("newblogs", blogService.listNewBlog(3));
         return "_fragments :: newblogList ";
     }
 

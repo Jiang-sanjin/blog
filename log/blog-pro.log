@@ -1,4 +1,0 @@
-2021-03-03 13:56:51.812  INFO 13420 --- [restartedMain] com.example.BlogApplication              : Starting BlogApplication on SC-201710151633 with PID 13420 (D:\IdeaProjects\blog\target\classes started by 三金 in D:\IdeaProjects\blog)
-2021-03-03 13:56:51.828  INFO 13420 --- [restartedMain] com.example.BlogApplication              : The following profiles are active: pro
-2021-03-03 13:56:56.048  WARN 13420 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-03-03 13:56:57.010  INFO 13420 --- [restartedMain] com.example.BlogApplication              : Started BlogApplication in 5.358 seconds (JVM running for 166.546)
